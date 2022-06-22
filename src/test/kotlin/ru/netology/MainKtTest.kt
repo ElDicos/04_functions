@@ -47,7 +47,7 @@ class MainKtTest {
     fun isTransferAvailable_shouldReturnTrueTransferInVK() {
         val type = "VK"
         val outgoingTransfer = false
-        val amount = 15_000_00
+        val amount = 15_001_00
         val expectedResult = true
 
         val result = ru.netology.isTransferAvailable(cardType = type,
